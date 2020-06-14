@@ -6,7 +6,7 @@ categories: C#
 tags: C#, netcore, validator, fluentvalidation
 image: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
 ---
-Hoje, estudando e lendo alguns artigos, me deparei com uma biblioteca chamada Fluent Validation que ajuda a resolver um problema recorrente em Web APIs: a validação.
+Hoje, estudando e lendo alguns artigos, me deparei com uma biblioteca chamada <a href="https://fluentvalidation.net">Fluent Validation</a> que ajuda a resolver um problema recorrente em Web APIs: a validação.
 
 Todos sabemos que, além de uma boa prática, é essencial para o negócio validar os dados que estão chegando em uma requisição e, quanto mais validações e regras, a coisa pode acabar virando um verdadeiro pesadelo.
 
@@ -48,7 +48,7 @@ Para começar vamos criar um projeto de Web API com net core. Aqui usei o 3.0.
 
 Em seguida vamos adicionar a dependência do FluentValidation.AspNetCore:
 
-<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/nuget.JPG">
+<img src="/assets/article_images/2020-06-14-fluent-validation/nuget.JPG">
 
 O Fluent Validation já possui uma série de regras para facilitar a validação das propriedades das nossas classes. Vamos criar uma classe de validação com as regras que desejo para a minha classe "Person".
 Sei que parece ter muita coisa, mas, vou explicar o que cada método está fazendo:
