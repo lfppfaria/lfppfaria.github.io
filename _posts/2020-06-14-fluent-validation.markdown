@@ -48,7 +48,7 @@ Para começar vamos criar um projeto de Web API com net core. Aqui usei o 3.0.
 
 Em seguida vamos adicionar a dependência do FluentValidation.AspNetCore:
 
-<img src="./assets/article_images/2020-06-14-fluent-validation/nuget.jpg">
+<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/nuget.jpg">
 
 O Fluent Validation já possui uma série de regras para facilitar a validação das propriedades das nossas classes. Vamos criar uma classe de validação com as regras que desejo para a minha classe "Person".
 Sei que parece ter muita coisa, mas, vou explicar o que cada método está fazendo:
@@ -129,11 +129,11 @@ Agora, quando consumirmos o POST, via Postman, teremos os seguintes resultados:
 
 Um objeto devidamente preenchido nos dará um status code 200:
 
-<img src="/assets/article_images/2020-06-14-fluent-validation/200.jpg">
+<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/200.jpg">
 
 Agora, se eu passar um json sem a propriedade "Name" preenchida terei o seguinte retorno:
 
-<img src="/assets/article_images/2020-06-14-fluent-validation/nameNullOrEmpty.jpg">
+<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/nameNullOrEmpty.jpg">
 
 Recebemos como retorno um status code 400 e uma mensagem "Nome não pode ser vazio." exatamente conforme configurada na nossa classe de validação. 
 
@@ -143,7 +143,7 @@ Agora, vamos a mais um exemplo.
 
 Vou tentar inserir um endereço de email inválido:
 
-<img src="/assets/article_images/2020-06-14-fluent-validation/invalidEmailAddress.jpg">
+<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/invalidEmailAddress.jpg">
 
 Notem que enviei um endereço sem o '@' e com um '.' a menos.
 
@@ -159,7 +159,7 @@ Mais um cenário que o Fluent Validation nos oferece é a possibilidade de consu
 
 Vou enviar um objeto com um nome composto somente de números:
 
-<img src="/assets/article_images/2020-06-14-fluent-validation/invalidName.jpg">
+<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/invalidName.jpg">
 
 Voltando ao código na nossa classe de validação, notamos que a regra de validação da propriedade "Name" consome a função "Must", que recebe como parâmetro uma function que por sua vez recebe como parâmetro um objeto do mesmo tipo da propriedade que está sendo validada e, então, retorna um bool que simplesmente indicará se a validação ocorreu com sucesso ou não.
 
