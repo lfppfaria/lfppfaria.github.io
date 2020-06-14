@@ -6,3 +6,5 @@ categories: Outros
 tags: Outros
 image: /assets/article_images/2020-06-13-bem-vindos/landscape.JPG
 ---
+
+Primeiro post do blog!
