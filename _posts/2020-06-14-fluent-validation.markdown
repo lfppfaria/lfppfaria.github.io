@@ -48,7 +48,7 @@ Para começar vamos criar um projeto de Web API com net core. Aqui usei o 3.0.
 
 Em seguida vamos adicionar a dependência do FluentValidation.AspNetCore:
 
-<img src="/assets/article_images/2020-06-14-fluent-validation/nuget.jpg">
+<img src="./assets/article_images/2020-06-14-fluent-validation/nuget.jpg">
 
 O Fluent Validation já possui uma série de regras para facilitar a validação das propriedades das nossas classes. Vamos criar uma classe de validação com as regras que desejo para a minha classe "Person".
 Sei que parece ter muita coisa, mas, vou explicar o que cada método está fazendo:
