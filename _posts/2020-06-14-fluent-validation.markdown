@@ -129,11 +129,11 @@ Agora, quando consumirmos o POST, via Postman, teremos os seguintes resultados:
 
 Um objeto devidamente preenchido nos dará um status code 200:
 
-<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/200.JPG">
+<img src="/assets/article_images/2020-06-14-fluent-validation/200.JPG">
 
 Agora, se eu passar um json sem a propriedade "Name" preenchida terei o seguinte retorno:
 
-<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/nameNullOrEmpty.JPG">
+<img src="/assets/article_images/2020-06-14-fluent-validation/nameNullOrEmpty.JPG">
 
 Recebemos como retorno um status code 400 e uma mensagem "Nome não pode ser vazio." exatamente conforme configurada na nossa classe de validação. 
 
@@ -143,7 +143,7 @@ Agora, vamos a mais um exemplo.
 
 Vou tentar inserir um endereço de email inválido:
 
-<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/invalidEmailAddress.JPG">
+<img src="/assets/article_images/2020-06-14-fluent-validation/invalidEmailAddress.JPG">
 
 Notem que enviei um endereço sem o '@' e com um '.' a menos.
 
@@ -159,7 +159,7 @@ Mais um cenário que o Fluent Validation nos oferece é a possibilidade de consu
 
 Vou enviar um objeto com um nome composto somente de números:
 
-<img src="https://raw.githubusercontent.com/lfppfaria/lfppfaria.github.io/master/assets/article_images/2020-06-14-fluent-validation/invalidName.JPG">
+<img src="/assets/article_images/2020-06-14-fluent-validation/invalidName.JPG">
 
 Voltando ao código na nossa classe de validação, notamos que a regra de validação da propriedade "Name" consome a função "Must", que recebe como parâmetro uma function que por sua vez recebe como parâmetro um objeto do mesmo tipo da propriedade que está sendo validada e, então, retorna um bool que simplesmente indicará se a validação ocorreu com sucesso ou não.
 
