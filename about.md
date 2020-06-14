@@ -2,16 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Sou Luiz Faria, no trabalho e entre os amigos também conhecido como Luizão, desenvolvedor de software com foco em .net com C# e mais de 13 anos de experiência.
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+Comecei minha carreira ainda no Visual Basic 5 e desde então vim evoluindo junto com as tecnologias da Microsoft. Passei pelo Visual Basic 5, Visual Basic 6 e migrei para o .net ainda no framework 1.0 e acompanhei toda a evolução até o 4.6 e migrar para o net core.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hoje meu foco é principalmente em desenvolvimento back-end. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+O objetivo com esse blog é tentar compartilhar um pouco do conhecimento que acumulei ao longo de todos esses anos e também aprender com os colegas de pprofissão que venham a interagir com as postagens desse blog.
