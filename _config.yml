@@ -30,7 +30,7 @@ twitter_handle:
 #fill in disqus shortname to use disqus
 disqus: https-lfppfaria-github-io
 
-#google_analytics: UA-XXXXX-X
+google_analytics: UA-169382178-1
 
 # social icons and sharing options
 social:
@@ -42,7 +42,7 @@ social:
     share_link:
 
   - icon:	linkedin
-    url:	 https://www.linkedin.com/in/lfppfaria/
+    url:  https://www.linkedin.com/in/lfppfaria/
     desc:	Linkedin
 #    share_url:
 #    share_title:
