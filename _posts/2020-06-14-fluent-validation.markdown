@@ -6,6 +6,7 @@ categories: C#
 tags: C#, netcore, validator, fluentvalidation
 image: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
 ---
+
 Hoje, estudando e lendo alguns artigos, me deparei com uma biblioteca chamada <a href="https://fluentvalidation.net">Fluent Validation</a> que ajuda a resolver um problema recorrente em Web APIs: a validação.
 
 Todos sabemos que, além de uma boa prática, é essencial para o negócio validar os dados que estão chegando em uma requisição e, quanto mais validações e regras, a coisa pode acabar virando um verdadeiro pesadelo.
@@ -218,7 +219,3 @@ Vou deixar o projeto que usei para teste no <a href="https://github.com/lfppfari
 Espero que esse artigo seja útil para alguém que esteja pensando em usar o Fluent Validation ou que esteja passando por problemas em suas validações e queira uma nova luz sobre o assunto.
 
 Abraços e até a próxima!
-
-Esse post foi útil pra você?
-
-<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#000000 !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/lfppfaria"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"><span style="margin-left:5px;font-size:28px !important;">Me pague uma cerveja!</span></a>
