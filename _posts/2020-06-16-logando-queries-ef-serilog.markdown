@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Logando queries do Entity Framework com Serilog"
-date:   2020-06-14 15:18:00
+date:   2020-06-19 23:37:00
 categories: C#
 tags: C#, netcore, ef, entityframework, entity framework, serilog, mysql, log, logging
 image: /assets/article_images/2020-06-16-logando-queries-ef-serilog/header.jpg
