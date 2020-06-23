@@ -5,7 +5,7 @@ date:   2020-06-19 23:37:00
 categories: C#
 tags: C#, netcore, ef, entityframework, entity framework, serilog, mysql, log, logging
 image: /assets/article_images/2020-06-16-logando-queries-ef-serilog/background_1920.jpg
-image2: /assets/article_images/2020-06-16-logando-queries-ef-serilog/background_640.jpg
+image2: /assets/article_images/2020-06-16-logando-queries-ef-serilog/background_1920.jpg
 ---
 
 Atualmente, algo muito comum é o uso do Entity Framework ou de outros ORMs para facilitar o acesso a dados e acelerar o desenvolvimento. Mas, algo que muitas vezes acaba se tornando uma grande dor de cabeça é saber qual consulta o Entity Framework está montando para realizar junto ao banco de dados.
