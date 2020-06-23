@@ -5,6 +5,7 @@ date:   2020-06-14 15:18:00
 categories: C#
 tags: C#, netcore, validator, fluentvalidation
 image: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
+image2: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
 ---
 
 Hoje, estudando e lendo alguns artigos, me deparei com uma biblioteca chamada <a href="https://fluentvalidation.net">Fluent Validation</a> que ajuda a resolver um problema recorrente em Web APIs: a validação.
