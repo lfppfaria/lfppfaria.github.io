@@ -3,7 +3,9 @@ layout: post
 title:  "Logando queries do Entity Framework com Serilog"
 date:   2020-06-19 23:37:00
 categories: C#
-tags: C#, netcore, ef, entityframework, entity framework, serilog, mysql, log, logging
+description: "Como fazer as queries geradas pelo Entity Framework aparecerem nos logs registrados através do serilog"
+author: Luiz Faria (Luizão)
+tags: c#, netcore, ef, entityframework, entity, framework, serilog, mysql, log, logging
 image: /assets/article_images/2020-06-16-logando-queries-ef-serilog/background_1920.jpg
 image2: /assets/article_images/2020-06-16-logando-queries-ef-serilog/background_1920.jpg
 ---

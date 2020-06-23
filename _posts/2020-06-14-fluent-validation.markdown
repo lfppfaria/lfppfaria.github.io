@@ -3,7 +3,9 @@ layout: post
 title:  "Fluent Validation"
 date:   2020-06-14 15:18:00
 categories: C#
-tags: C#, netcore, validator, fluentvalidation
+description: "Como facilitar a implementação de validações usando o fluent validation"
+tags: c#, netcore, validator, fluentvalidation, fluent, validation
+author: Luiz Faria (Luizão)
 image: /assets/article_images/2020-06-14-fluent-validation/background_1920.jpg
 image2: /assets/article_images/2020-06-14-fluent-validation/background_1920.jpg
 ---
