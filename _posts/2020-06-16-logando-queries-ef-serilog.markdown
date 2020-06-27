@@ -20,7 +20,11 @@ Para isso, vou montar um exemplo funcional com uma base de dados MySQL rodando e
 
 Se você não quiser ler sobre o Docker, MySQL e o Serilog pode ir diretamente para o último bloco do post <a href="#logando_queries_ef_serilog">"Logando queries do EF com Serilog"</a>.
 
-<h3>Docker</h3>
+Se você chegou aqui de outro artigo para ler Docker clique <a href="#docker">aqui</a>.
+
+Se você chegou aqui de outro artigo para ler sobre MySQL clique <a href="#mysql">aqui</a>.
+
+<h3 id="docker">Docker</h3>
 
 Docker foi concebido com a ideia de facilitar a publicação e execução de aplicações usando containers. O container permite que o desenvolvedor crie um pacote de sua aplicação com apenas o que é necessário. Isso é possível, pois, a mágica do Docker é permitir que essas aplicações, cada uma em seu container use o mesmo kernel do Linux em que estão rodando, portanto, quando o desenvolvedor cria um pacote de sua aplicação, esse pacote só está levando a aplicação e suas dependências, que não existem na máquina hospedeira. Com isso fica claro que o Docker e seus containers não são máquinas virtuais.
 
@@ -30,7 +34,7 @@ Sim, pode instalar direto na sua máquina, e sim vai dar no mesmo. Gosto de roda
 
 Para instalação do Docker Desktop só precisamos baixar seu instalador e seguir a instalação padrão. Recomendo baixar diretamente no <a href="https://hub.docker.com">DockerHub</a> e o link para a página de download é esse <a href="https://www.docker.com/products/docker-desktop">aqui</a>.
 
-<h3>MySQL</h3>
+<h3 id="mysql">MySQL</h3>
 
 Agora que já temos o Docker devidamente instalado vamos ao MySQL. 
 
