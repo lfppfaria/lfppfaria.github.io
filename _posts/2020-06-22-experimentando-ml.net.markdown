@@ -174,7 +174,7 @@ var dataSource = new DatabaseSource(MySqlClientFactory.Instance, connectionStrin
 var dataView = dataLoader.Load(dataSource);
 {% endhighlight %}
 
-Agora que já temos os dados carregados em nosso contexto podemos treinar o modelo, nessa etapa é de grande importância ficar atento aos valores que estamos fornecendo aos parâmetros de treino, pois, esses parâmetros contém coisas como o windowSize, seriesLength e trainSize que se utilizados de forma equivocada podem gerar resultados completamente inesperados.
+Agora que já temos os dados carregados em nosso contexto podemos treinar o modelo, nessa etapa é de grande importância ficar atento aos valores que estamos fornecendo aos parâmetros de treino, pois, esses parâmetros contém coisas como o windowSize, seriesLength e trainSize que se utilizados de forma equivocada podem gerar resultados completamente inesperados. Como quero fazer uma previsão mais linear ao longo de um período de tempo, optei por usar o algoritmo SSA que combina elementos comuns de análise ao longo de um período de tempo com análises estatísticas e decomposições. Existem outros algoritmos que poderiam ajudar a resolver esse mesmo problema mas vou optar por implementar esse primeiro.
 
 {% highlight c# %}
 var dataPoints = context.Data.CreateEnumerable<InputModel>(dataView, false).Count(); //Quantidade de itens que tenho para dar entrada no treinamento e na previsão
