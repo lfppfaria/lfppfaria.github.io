@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experimentando ML.NET"
-date:   2020-06-22 23:26:00
+date:   2020-06-27 17:26:00
 categories: C#
 description: "Primeiros passos e impressões com o ML.NET"
 tags: c#, netcore, machinelearning, machine learning, ml, net, ml.net
