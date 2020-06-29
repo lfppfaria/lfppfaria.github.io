@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Injetando DBContext em um middleware"
-date:   2020-06-27 17:26:00
+date:   2020-06-28 22:19:00
 categories: C#
 description: "Como injetar um DBContext em um middleware"
 tags: c#, netcore, middleware, entityFramework, ef, InvalidOperationException, dbcontext, di, dependencyinjection
