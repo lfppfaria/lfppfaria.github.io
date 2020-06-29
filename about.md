@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
 image: /assets/article_images/2020-06-13-bem-vindos/landscape.jpg
