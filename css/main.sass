@@ -280,7 +280,7 @@ body
       @include box-sizing(border-box)
       @include respond-to(800)
         left: $rs
-        right: $rs        
+        right: $rs         
     .post-title
       font-weight: 700
       font-style: normal
@@ -290,6 +290,18 @@ body
       color: #fff
       margin-bottom: 16px
       text-shadow: 0px 1px 16px rgba(0,0,0,0.5), 0px 0px 1px rgba(0,0,0,0.5)
+    .shadow-background
+      padding-top: 25px 
+    @media(min-width:700px)
+      .shadow-background
+        padding-left: 30% 
+        padding-right: 30%
+    @media(max-width:700px)
+      .shadow-background
+        padding-left: 10% 
+        padding-right: 10%
+      .post-title
+        font-size: 30px
     .author-image
       display: inline-block
       width: 30px
@@ -442,7 +454,7 @@ body
       font-weight: 400
       font-style: normal
       font-size: 20px
-      line-height: 25px
+      line-height: 30px
       margin-left: 30px
       margin-bottom: 12px
       padding-top: 2px
