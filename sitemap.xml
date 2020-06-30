@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lfppfaria.github.io/</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/about/</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/c%23/2020/06/29/como-adicionar-observabilidade-em-aplicacoes.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/c%23/2020/06/28/injetando-dbcontext-em-um-middleware.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/c%23/2020/06/27/experimentando-ml.net.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/c%23/2020/06/19/logando-queries-ef-serilog.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/c%23/2020/06/14/fluent-validation.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/page2/</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lfppfaria.github.io/outros/2020/06/13/bem-vindos.html</loc>
+  <lastmod>2020-06-30T02:34:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
